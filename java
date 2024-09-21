@@ -1,11 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
        String name = "Hello";
+        String original = "";
         String decrpyted = "";
         String encrpyted = "";
-  
         System.out.println("Original: " + original);
-
+        
         for (int i = 0; i < original.length(); i++) {
             char result = encrypt(original.charAt(i));
             encrpyted+= result;
