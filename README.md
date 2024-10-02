@@ -51,7 +51,7 @@ R number = 17 - 3 = 14 = O
 Simple Solution you can use Caeser Cipher without using mod 26 means.
 
 if K = 3 u have to move 3 to right same with K = -3 move 3 to left and put the letter 
-# Rules 
+# Caesar Rules 
 
 1. When u want to use Caeser Cipher with English letters you have to use mod 26 to stay in the range of letters
    
